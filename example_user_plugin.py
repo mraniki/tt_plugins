@@ -7,11 +7,11 @@ from tt.plugins.plugin_manager import BasePlugin
 #from myclass import MyClass
 
 
-class ExamplePlugin(BasePlugin):
+class ExampleUserPlugin(BasePlugin):
     """Example Plugin
     Initialization of imported class MyClass
     """
-    name = os.path.splitext(os.path.basename(__file__))[0]
+    name = example_user_plugin
 
     def __init__(self):
         """Plugin Initialization"""
