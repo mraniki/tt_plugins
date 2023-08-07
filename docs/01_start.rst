@@ -3,14 +3,6 @@ Getting Started
 ===============
 
 
-Installation
-============
-
-::
-    
-    pip install iamlistening
-
-
 Example
 =======
 
