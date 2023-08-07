@@ -1,7 +1,7 @@
-import asyncio
+
 import os
 from tt.config import logger, settings
-from tt.utils import send_notification, __version__
+from tt.utils import send_notification
 from tt.plugins.plugin_manager import BasePlugin
 
 #from myclass import MyClass
@@ -11,7 +11,7 @@ class ExampleUserPlugin(BasePlugin):
     """Example Plugin
     Initialization of imported class MyClass
     """
-    name = example_user_plugin
+    name = os.path.splitext(os.path.basename(__file__))[0]
 
     def __init__(self):
         """Plugin Initialization"""
