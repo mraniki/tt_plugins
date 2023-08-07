@@ -23,7 +23,7 @@ User Guide
    02_config
 
 
-User Guide
+Top Modules
 ==========
 
 .. toctree::

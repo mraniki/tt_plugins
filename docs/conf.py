@@ -16,7 +16,7 @@ sys.path.insert(0, os.path.abspath('../'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'iamlistening'
+project = 'tt_plugins'
 copyright = '2023, mraniki'
 author = 'mraniki'
 language = "en"
